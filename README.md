@@ -5,7 +5,9 @@ bash <(wget -q -O- https://raw.githubusercontent.com/Yasher/scripts/main/huge_di
 du -hx --max-depth=20 / | grep "[[:digit:]]\.*G"
 
 7.8G    /backup2/mysql/admin_admin
+
 7.9G    /backup2/mysql
+
 1.9G    /backup2/tmp/var/www//data/www//wp-content/uploads/2022
 4.1G    /backup2/tmp/var/www//data/www//wp-content/uploads/wio_backup/2022
 2.2G    /backup2/tmp/var/www//data/www//wp-content/uploads/wio_backup/2021
